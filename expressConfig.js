@@ -6,7 +6,7 @@ var express = require('express'),
     session = require('express-session'),
     path = require('path');
 
-var rootPath = path.normalize(__dirname + '/../../');
+var rootPath = path.normalize(__dirname);
 //CORS middleware
 var allowCrossDomain = function(req, res, next) {
   res.header('Access-Control-Allow-Origin', 'example.com');
